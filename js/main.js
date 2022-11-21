@@ -14,37 +14,39 @@ let ArrCard = [
     {
         "Nome" : "Wayne Barnett",
         "Ruolo" : "Founder & CEO",
-        "foto" : "img"
+        "foto" : "img/wayne-barnett-founder-ceo.jpg"
     },
 
     {
         "Nome" : "Angela Caroll",
         "Ruolo" : "Chief Editor",
-        "foto" : "img"
+        "foto" : "img/angela-caroll-chief-editor.jpg"
     },
 
     {
         "Nome" : "Walter Gordon",
         "Ruolo" : "Office Manager",
-        "foto" : "img"
+        "foto" : "img/walter-gordon-office-manager.jpg"
     },
 
     {
         "Nome" : "Angela Lopez",
         "Ruolo" : "Social Media Manager",
-        "foto" : "img"
+        "foto" : "img/angela-lopez-social-media-manager.jpg"
     },
 
     {
         "Nome" : "Scott Estrada",
         "Ruolo" : "Developer",
-        "foto" : "img"
+        "foto" : "img/scott-estrada-developer.jpg"
     },
 
     {
         "Nome" : "Barbara Ramos",
         "Ruolo" : "Graphic Designer",
-        "foto" : "img"
+        "foto" : "img/barbara-ramos-graphic-designer.jpg"
     },
     
 ]
+
+console.log(ArrCard);
