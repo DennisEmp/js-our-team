@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: azure;
+}
+
+.title {
+    text-align: center;
+    color: brown;
+    font-size: 40px;
+}
+
+.container {
+    width: 80vw;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.img {
+    width: calc((100% / 3) - 5px);
+    margin: 10px;
+}
+
+.nome {
+    text-align: center;
+}
+
+.ruolo {
+    text-align: center;
+}
