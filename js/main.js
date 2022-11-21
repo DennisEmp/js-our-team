@@ -50,25 +50,22 @@ let ArrCard = [
 ]
 
 console.log(ArrCard);
-
-
 cards();
-
-
-
 function cards () {
 
     for (let i = 0; i < ArrCard.length; i++) {
 
         let newCard = 
         
-        `<div class="img">
-            <img src="${ArrCard[i].foto}" alt="">
-            <div id="user-data">
-                <div id="nome">${ArrCard[i].Nome}</div>
-                <div id="ruolo">${ArrCard[i].Ruolo}</div>
+        `<div class="box-user">
+            <div class="img">
+                <img src="${ArrCard[i].foto}" alt="">
+                <div id="user-data">
+                    <div id="nome">${ArrCard[i].Nome}</div>
+                    <div id="ruolo">${ArrCard[i].Ruolo}</div>
+                </div>
             </div>
-        </div>`
+         </div>`
         
 
         const container=document.querySelector(".container").innerHTML += newCard

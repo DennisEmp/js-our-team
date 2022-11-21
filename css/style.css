@@ -3,11 +3,14 @@
 }
 
 body {
-    background-color: azure;
+    background-color: #8d9fb0;
 }
 
 img {
-    max-width: 100%;
+    max-width: 70%;
+    border-radius: 40px;
+    display: flex;
+    margin: 0 auto;
 }
 
 .title {
@@ -18,21 +21,30 @@ img {
 
 .container {
     width: 80vw;
-    border: 1px solid black;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
-.img {
+.box-user {
     width: calc((100% / 3) - 20px);
     margin: 10px;
+    border-radius: 46px;
+    background: #8d9fb0;
+    box-shadow:  5px 5px 13px #57636d,-5px -5px 13px #c3dbf3;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.img {
+    width: 100%;
 }
 
 #nome {
     text-align: center;
     font-size: 18px;
+    margin-top: 15px;
 }
 
 #ruolo {
