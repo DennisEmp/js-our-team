@@ -6,6 +6,10 @@ body {
     background-color: azure;
 }
 
+img {
+    max-width: 100%;
+}
+
 .title {
     text-align: center;
     color: brown;
@@ -22,14 +26,17 @@ body {
 }
 
 .img {
-    width: calc((100% / 3) - 60px);
+    width: calc((100% / 3) - 20px);
     margin: 10px;
 }
 
-.nome {
+#nome {
     text-align: center;
+    font-size: 18px;
 }
 
-.ruolo {
+#ruolo {
     text-align: center;
+    font-size: 14px;
+    font-weight: bold;
 }
